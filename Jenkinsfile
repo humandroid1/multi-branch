@@ -9,7 +9,7 @@ node{
        }
   stage("Installing Dependencies automatically")
   {
-      sh  "ssh  ec2-user@3.85.33.216 ' cd /home/ec2-user/vish/' "
+      //sh  "ssh  ec2-user@3.85.33.216 ' cd /home/ec2-user/vish/' "
    sh  "ssh  ec2-user@3.85.33.216 'sudo python autoimport.py' "
   }
   //stage("Deploying in airflow"){
