@@ -1,7 +1,7 @@
 import calc 
   
 print add(10, 2) 
-from math import sqrt, factorial 
+from math import sqrt, factorial
   
 # if we simply do "import math", then 
 # math.sqrt(16) and math.factorial() 
