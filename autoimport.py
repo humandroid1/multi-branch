@@ -14,6 +14,7 @@ print("****************")
 for a,b,c in os.walk('/home/ec2-user/vish):
     for files in c:
         with open(files) as f:
+            print(files)
             for lines in f:
                 if "import" in lines and "#" not in lines:
                     tmp = lines.split("import")
